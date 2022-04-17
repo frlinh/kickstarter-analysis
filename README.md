@@ -24,7 +24,7 @@ The median campaign goal is slightly higher than the average pledged amount.
 
 # Challenges and Difficulties Encountered:
 ### Challenges
-The total number of 'Successful' and 'Failed' goals did not add up correctly when I was creating the 'Outcomes Based on Goals' table.  I spotted this when I ran the 'countif' formula on the data from the Kickstarter tab that was greater than 0.  I found that I was missing a row with a goal of '40000 to 44999'. The total numbers matched once I corrected the table and formula in the row.
+The total number of 'Successful' and 'Failed' goals did not add up correctly when I was creating the 'Outcomes Based on Goals' table.  I spotted the discrepancy when I ran the 'countif' formula to populate the total number of 'Successful' and 'Failed' 'Play's from the Kickstarter tab that was greater than '0'.  I found that I was missing a row with a goal of '40000 to 44999' on the table. The total numbers matched once I corrected the table by adding '40000 to 44999' and running the correct formula in each cell.
 
 ### Limitations
 The limitations in the dataset is the number of campaigns held between 45000 to 49999.  We could not measure the success rate with only one fail campagin in this range.
