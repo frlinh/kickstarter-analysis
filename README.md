@@ -1,9 +1,9 @@
 # An Analysis of Kickstarter Campaigns
 
-# Purpose:
+## Purpose:
 Performed data analysis on several thousand crowdfunding campaigns to identify the correlations to successful and unsucessful campaigns.
 
-# Analysis:
+## Analysis:
 
 ### Analysis of Outcomes Based on Launch Date
 ![Theater Outcomes vs Launch Chart](https://github.com/frlinh/kickstarter-analysis/blob/014cd0fbb744b7b956830d396c71fe780300f2f0/Theater_Outcomes_vs_Launch.png)
@@ -22,7 +22,7 @@ Kickstarter campaigns with a goal of less than 1000 were most succesful.
 The average campaign goal is 4x more than the average pledged amount.
 The median campaign goal is slightly higher than the average pledged amount.
 
-# Challenges and Difficulties Encountered:
+## Challenges and Difficulties Encountered:
 ### Challenges
 The total number of 'Successful' and 'Failed' goals did not add up correctly when I was creating the 'Outcomes Based on Goals' table.  I spotted the discrepancy when I ran the 'countif' formula to populate the total number of 'Successful' and 'Failed' 'Plays' from the Kickstarter tab that was greater than '0'.  I found that I was missing a row with a goal of '40000 to 44999' on the table.  The total numbers matched once I corrected the table by adding '40000 to 44999' and running the correct formula in each cell.
 
