@@ -1,4 +1,4 @@
-## An Analysis of Kickstarter Campaigns
+# An Analysis of Kickstarter Campaigns
 
 # Purpose:
 Performed data analysis on several thousand crowdfunding campaigns to identify the correlations to successful and unsucessful campaigns.
